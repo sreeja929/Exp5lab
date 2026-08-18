@@ -3,9 +3,9 @@ agent any
 stages{
 stage('compile'){
   steps{
-    sh 'javac HelloWorld.java'
+    sh 'python3 add.py'
 }}
 stage('Run'){
 steps{
-sh 'java HelloWorld'
+sh 'python3 add.py'
 }}}}
