@@ -7,5 +7,5 @@ stage('compile'){
 }}
 stage('Run'){
 steps{
-sh './a.out'
+sh '.\a.out'
 }}}}
