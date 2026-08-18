@@ -3,9 +3,9 @@ agent any
 stages{
 stage('compile'){
   steps{
-    sh 'python3 add.py'
+    sh 'gcc Hello.c'
 }}
 stage('Run'){
 steps{
-sh 'python3 add.py'
+sh './a.out'
 }}}}
